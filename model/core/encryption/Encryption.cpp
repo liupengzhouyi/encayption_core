@@ -34,5 +34,6 @@ void Encryption::setReturnInfo(const std::string &returnInfo) {
 }
 
 void Encryption::encryption_for_info() {
+
     this->returnInfo = std::string(this->info + "temp.");
 }

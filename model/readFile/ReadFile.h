@@ -34,4 +34,4 @@ public:
 
 #endif //ENCAYPTION_CORE_READFILE_H
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=liupengzhouyi&show_icons=true)
+// ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=liupengzhouyi&show_icons=true)

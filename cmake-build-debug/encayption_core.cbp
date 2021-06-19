@@ -83,6 +83,9 @@
 		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/main.cpp">
 			<Option target="encayption_core"/>
 		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/model/allEnv/allEnv.h">
+			<Option target="encayption_core"/>
+		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/model/core/encryption/Encryption.cpp">
 			<Option target="encayption_core"/>
 		</Unit>

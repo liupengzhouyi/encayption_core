@@ -4,6 +4,7 @@
 
 int main() {
 
+
     std::string dirPath = "/Users/liupeng/CLionProjects/encryption-core";
     FliePath fliePath = FliePath();
     fliePath.setLogKey(false);
