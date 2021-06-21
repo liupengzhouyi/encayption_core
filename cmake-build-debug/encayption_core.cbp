@@ -5,7 +5,7 @@
 		<Option title="encayption_core"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/liupeng/CLionProjects/encayption_core/cmake-build-debug"/>
@@ -115,6 +115,9 @@
 		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -1,9 +1,9 @@
 #include <iostream>
 #include "model/path/FliePath.h"
 #include "model/readFile/ReadFile.h"
+#include "./lib/source/testLib.cpp"
 
 int main() {
-
 
     std::string dirPath = "/Users/liupeng/CLionProjects/encryption-core";
     FliePath fliePath = FliePath();
@@ -20,6 +20,8 @@ int main() {
         readFile.writeFlie();
         break;
     }
+
+    std::cout << getNumber() << std::endl;
 
     return 0;
 }

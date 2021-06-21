@@ -73,18 +73,38 @@ CMAKE_BINARY_DIR = /Users/liupeng/CLionProjects/encayption_core/cmake-build-debu
 
 # The main recursive "all" target.
 all: CMakeFiles/encayption_core.dir/all
+all: lib/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: lib/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/encayption_core.dir/clean
+clean: lib/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lib
+
+# Recursive "all" directory target.
+lib/all:
+
+.PHONY : lib/all
+
+# Recursive "preinstall" directory target.
+lib/preinstall:
+
+.PHONY : lib/preinstall
+
+# Recursive "clean" directory target.
+lib/clean:
+
+.PHONY : lib/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/encayption_core.dir
