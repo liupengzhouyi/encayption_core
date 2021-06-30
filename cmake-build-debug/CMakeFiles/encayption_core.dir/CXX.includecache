@@ -14,25 +14,17 @@ model/path/FliePath.h
 model/readFile/ReadFile.h
 /Users/liupeng/CLionProjects/encayption_core/model/readFile/ReadFile.h
 
-/Users/liupeng/CLionProjects/encayption_core/model/core/encryption/Encryption.cpp
-Encryption.h
 /Users/liupeng/CLionProjects/encayption_core/model/core/encryption/Encryption.h
-
-/Users/liupeng/CLionProjects/encayption_core/model/core/encryption/Encryption.h
+vector
+-
 string
 -
 
-/Users/liupeng/CLionProjects/encayption_core/model/core/unEncryption/UnEncryption.cpp
-UnEncryption.h
 /Users/liupeng/CLionProjects/encayption_core/model/core/unEncryption/UnEncryption.h
-
-/Users/liupeng/CLionProjects/encayption_core/model/core/unEncryption/UnEncryption.h
+vector
+-
 string
 -
-
-/Users/liupeng/CLionProjects/encayption_core/model/path/FliePath.cpp
-FliePath.h
-/Users/liupeng/CLionProjects/encayption_core/model/path/FliePath.h
 
 /Users/liupeng/CLionProjects/encayption_core/model/path/FliePath.h
 iostream
@@ -49,12 +41,8 @@ vector
 -
 
 /Users/liupeng/CLionProjects/encayption_core/model/readFile/ReadFile.cpp
-fstream
--
 ReadFile.h
 /Users/liupeng/CLionProjects/encayption_core/model/readFile/ReadFile.h
-../core/encryption/Encryption.h
-/Users/liupeng/CLionProjects/encayption_core/model/core/encryption/Encryption.h
 
 /Users/liupeng/CLionProjects/encayption_core/model/readFile/ReadFile.h
 iostream
@@ -63,6 +51,10 @@ string
 -
 vector
 -
-
-/Users/liupeng/CLionProjects/encayption_core/test.cpp
+fstream
+-
+../core/encryption/Encryption.h
+/Users/liupeng/CLionProjects/encayption_core/model/core/encryption/Encryption.h
+../core/unEncryption/UnEncryption.h
+/Users/liupeng/CLionProjects/encayption_core/model/core/unEncryption/UnEncryption.h
 

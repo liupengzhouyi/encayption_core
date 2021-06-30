@@ -4,6 +4,9 @@
 #include<iostream>
 #include<string>
 #include<vector>
+#include <fstream>
+#include "../core/encryption/Encryption.h"
+#include "../core/unEncryption/UnEncryption.h"
 
 #ifndef ENCAYPTION_CORE_READFILE_H
 #define ENCAYPTION_CORE_READFILE_H
@@ -27,6 +30,8 @@ public:
     void setInfomation(const std::vector<std::string> &infomation);
 
     void readFile();
+
+    void unEncryptionFile();
 
     void writeFlie();
 };

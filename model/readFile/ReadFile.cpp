@@ -2,9 +2,8 @@
 // Created by 刘鹏 on 2021/6/8.
 //
 
-#include <fstream>
 #include "ReadFile.h"
-#include "../core/encryption/Encryption.h"
+
 
 ReadFile::ReadFile() {
     this->infomation = std::vector<std::string>();
@@ -40,12 +39,26 @@ void ReadFile::readFile() {
 }
 
 void ReadFile::writeFlie() {
-    std::ofstream out(this->getPath()+"temp");
+    std::ofstream out(this->getPath());
     if (! out.is_open()) {
         std::cout << "Error opening file"; exit (1);
     }
     for (std::string line : this->getInfomation()) {
         out << line << std::endl;
+    }
+}
+
+void ReadFile::unEncryptionFile() {
+    std::ifstream in(this->getPath());
+    if (! in.is_open()) {
+        std::cout << "Error opening file"; exit (1);
+    }
+    std::string line;
+    while(getline(in, line))
+    {
+//        Encryption encryption = Encryption(this->getPath(), line);
+        UnEncryption unEncryption = UnEncryption(this->getPath(), line);
+        this->infomation.push_back(unEncryption.getReturnInfo());
     }
 }
 

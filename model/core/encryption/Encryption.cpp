@@ -2,6 +2,7 @@
 // Created by 刘鹏 on 2021/6/9.
 //
 
+
 #include "Encryption.h"
 
 Encryption::Encryption(const std::string &encryptionFactor, const std::string &info) : encryptionFactor(
@@ -34,6 +35,22 @@ void Encryption::setReturnInfo(const std::string &returnInfo) {
 }
 
 void Encryption::encryption_for_info() {
-
-    this->returnInfo = std::string(this->info + "temp.");
+    std::string s1 = this->info;
+    std::string s2 = this->encryptionFactor;
+    std::vector<int> myMap = {};
+    for (auto item : s2) {
+        myMap.push_back(int(item));
+    }
+    std::string newStr = "";
+    int index = 0;
+    for (auto item : s1) {
+        char temp = (char)(int(item) + myMap[index]);
+        newStr = newStr + temp;
+        if (index <= myMap.size()) {
+            index = index + 1;
+        } else {
+            index = 0;
+        }
+    }
+    this->returnInfo = std::string(newStr);
 }
