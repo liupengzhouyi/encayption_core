@@ -2,6 +2,7 @@
 // Created by 刘鹏 on 2021/6/9.
 //
 
+
 #include "UnEncryption.h"
 
 UnEncryption::UnEncryption(const std::string &encryptionFactor, const std::string &info) : encryptionFactor(
@@ -34,5 +35,22 @@ void UnEncryption::setReturnInfo(const std::string &returnInfo) {
 }
 
 void UnEncryption::unEncryption_for_info() {
-    this->returnInfo = std::string(this->info);
+    std::string newStr = this->info;
+    std::string s2 = this->encryptionFactor;
+    std::vector<int> myMap = {};
+    for (auto item : s2) {
+        myMap.push_back(int(item));
+    }
+    int index = 0;
+    std::string oldStr = "";
+    for (auto item : newStr) {
+        char temp = (char)(int(item) - myMap[index]);
+        oldStr = oldStr + temp;
+        if (index <= myMap.size()) {
+            index = index + 1;
+        } else {
+            index = 0;
+        }
+    }
+    this->returnInfo = std::string(oldStr);
 }

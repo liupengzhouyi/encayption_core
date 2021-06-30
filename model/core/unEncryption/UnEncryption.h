@@ -5,7 +5,7 @@
 #ifndef ENCAYPTION_CORE_UNENCRYPTION_H
 #define ENCAYPTION_CORE_UNENCRYPTION_H
 
-
+#include <vector>
 #include <string>
 
 class UnEncryption {

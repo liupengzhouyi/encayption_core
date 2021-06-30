@@ -5,7 +5,7 @@
 #ifndef ENCAYPTION_CORE_ENCRYPTION_H
 #define ENCAYPTION_CORE_ENCRYPTION_H
 
-
+#include <vector>
 #include <string>
 
 class Encryption {

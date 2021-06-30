@@ -2,11 +2,9 @@
 #include "model/path/FliePath.h"
 #include "model/readFile/ReadFile.h"
 
-//#include "./lib/source/testLib.cpp"
-
 int main() {
 
-    std::string dirPath = "/Users/liupeng/CLionProjects/encayption_core/test";
+    std::string dirPath = "/Users/liupeng/CLionProjects/encayption_core/model/path";
     FliePath fliePath = FliePath();
     fliePath.setLogKey(false);
     fliePath.setDirPath(dirPath);
@@ -16,8 +14,7 @@ int main() {
         std::cout << path << std::endl;
         ReadFile readFile = ReadFile();
         readFile.setPath(path);
-//        readFile.readFile();
-        readFile.unEncryptionFile();
+        readFile.readFile();
         readFile.writeFlie();
         break;
     }
