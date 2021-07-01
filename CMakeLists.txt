@@ -14,7 +14,7 @@ add_executable(encayption_core
         test.cpp model/core/unEncryption/UnEncryption.cpp model/core/unEncryption/UnEncryption.h
         model/core/encryption/Encryption.cpp model/core/encryption/Encryption.h
         model/allEnv/allEnv.h
-        )
+        index.h test/tsetClass.cpp test/tsetClass.h)
 
 
 add_subdirectory(lib)

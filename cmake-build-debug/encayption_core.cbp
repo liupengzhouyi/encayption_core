@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/index.h">
+			<Option target="encayption_core"/>
+		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/main.cpp">
 			<Option target="encayption_core"/>
 		</Unit>
@@ -111,6 +114,12 @@
 			<Option target="encayption_core"/>
 		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/test.cpp">
+			<Option target="encayption_core"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/test/tsetClass.cpp">
+			<Option target="encayption_core"/>
+		</Unit>
+		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/test/tsetClass.h">
 			<Option target="encayption_core"/>
 		</Unit>
 		<Unit filename="/Users/liupeng/CLionProjects/encayption_core/CMakeLists.txt">

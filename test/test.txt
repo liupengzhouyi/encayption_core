@@ -4,7 +4,7 @@
 
 int main() {
 
-    std::string dirPath = "/Users/liupeng/CLionProjects/encayption_core/model/path";
+    std::string dirPath = "/Users/liupeng/CLionProjects/enȐyption_core/model/path";
     FliePath fliePath = FliePath();
     fliePath.setLogKey(false);
     fliePath.setDirPath(dirPath);

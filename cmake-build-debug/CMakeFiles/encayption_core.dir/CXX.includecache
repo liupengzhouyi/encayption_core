@@ -40,10 +40,6 @@ string
 vector
 -
 
-/Users/liupeng/CLionProjects/encayption_core/model/readFile/ReadFile.cpp
-ReadFile.h
-/Users/liupeng/CLionProjects/encayption_core/model/readFile/ReadFile.h
-
 /Users/liupeng/CLionProjects/encayption_core/model/readFile/ReadFile.h
 iostream
 -
@@ -57,4 +53,10 @@ fstream
 /Users/liupeng/CLionProjects/encayption_core/model/core/encryption/Encryption.h
 ../core/unEncryption/UnEncryption.h
 /Users/liupeng/CLionProjects/encayption_core/model/core/unEncryption/UnEncryption.h
+
+/Users/liupeng/CLionProjects/encayption_core/test/tsetClass.cpp
+tsetClass.h
+/Users/liupeng/CLionProjects/encayption_core/test/tsetClass.h
+
+/Users/liupeng/CLionProjects/encayption_core/test/tsetClass.h
 

@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/encayption_core.dir/model/path/FliePath.cpp.o"
   "CMakeFiles/encayption_core.dir/model/readFile/ReadFile.cpp.o"
   "CMakeFiles/encayption_core.dir/test.cpp.o"
+  "CMakeFiles/encayption_core.dir/test/tsetClass.cpp.o"
   "encayption_core"
   "encayption_core.pdb"
 )

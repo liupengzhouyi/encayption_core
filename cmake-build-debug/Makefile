@@ -304,6 +304,33 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/encayption_core.dir/build.make CMakeFiles/encayption_core.dir/test.cpp.s
 .PHONY : test.cpp.s
 
+test/tsetClass.o: test/tsetClass.cpp.o
+
+.PHONY : test/tsetClass.o
+
+# target to build an object file
+test/tsetClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encayption_core.dir/build.make CMakeFiles/encayption_core.dir/test/tsetClass.cpp.o
+.PHONY : test/tsetClass.cpp.o
+
+test/tsetClass.i: test/tsetClass.cpp.i
+
+.PHONY : test/tsetClass.i
+
+# target to preprocess a source file
+test/tsetClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encayption_core.dir/build.make CMakeFiles/encayption_core.dir/test/tsetClass.cpp.i
+.PHONY : test/tsetClass.cpp.i
+
+test/tsetClass.s: test/tsetClass.cpp.s
+
+.PHONY : test/tsetClass.s
+
+# target to generate assembly for a file
+test/tsetClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/encayption_core.dir/build.make CMakeFiles/encayption_core.dir/test/tsetClass.cpp.s
+.PHONY : test/tsetClass.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -331,6 +358,9 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... test/tsetClass.o"
+	@echo "... test/tsetClass.i"
+	@echo "... test/tsetClass.s"
 .PHONY : help
 
 

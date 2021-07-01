@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/liupeng/CLionProjects/encayption_core/model/path/FliePath.cpp" "/Users/liupeng/CLionProjects/encayption_core/cmake-build-debug/CMakeFiles/encayption_core.dir/model/path/FliePath.cpp.o"
   "/Users/liupeng/CLionProjects/encayption_core/model/readFile/ReadFile.cpp" "/Users/liupeng/CLionProjects/encayption_core/cmake-build-debug/CMakeFiles/encayption_core.dir/model/readFile/ReadFile.cpp.o"
   "/Users/liupeng/CLionProjects/encayption_core/test.cpp" "/Users/liupeng/CLionProjects/encayption_core/cmake-build-debug/CMakeFiles/encayption_core.dir/test.cpp.o"
+  "/Users/liupeng/CLionProjects/encayption_core/test/tsetClass.cpp" "/Users/liupeng/CLionProjects/encayption_core/cmake-build-debug/CMakeFiles/encayption_core.dir/test/tsetClass.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -23,3 +23,6 @@ CMakeFiles/encayption_core.dir/model/readFile/ReadFile.cpp.o: ../model/readFile/
 
 CMakeFiles/encayption_core.dir/test.cpp.o: ../test.cpp
 
+CMakeFiles/encayption_core.dir/test/tsetClass.cpp.o: ../test/tsetClass.cpp
+CMakeFiles/encayption_core.dir/test/tsetClass.cpp.o: ../test/tsetClass.h
+
